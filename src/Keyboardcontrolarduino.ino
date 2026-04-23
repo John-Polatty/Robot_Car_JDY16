@@ -1,9 +1,9 @@
 /*
  * LAFVIN 4WD Robot - Bluetooth Control 
- * Using your specific motor pin mapping (2, 4, 5, 6)
+ * Using LAFVIN SHIELD specific motor pin mapping (2, 4, 5, 6)
  */
 
-// Pin mapping from your IR script
+// Pin mapping (These can be changed if the motors are connected to different pins on the shield)
 const int LEFT_DIR  = 2;
 const int LEFT_PWM  = 5;
 const int RIGHT_DIR = 4;
