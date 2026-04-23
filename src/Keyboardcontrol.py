@@ -4,7 +4,7 @@ from bleak import BleakClient
 
 # --- CONFIGURATION ---
 # Replace with your JDY-16 address (e.g., "00:0E:0B:XX:XX:XX")
-ROBOT_ADDRESS = "3C:A5:08:0B:96:C6" 
+ROBOT_ADDRESS = "YOUR_DEVICE"
 
 # The standard JDY-16 / MLT-BT05 UUID for serial data
 CHARACTERISTIC_UUID = "0000ffe1-0000-1000-8000-00805f9b34fb"
