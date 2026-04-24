@@ -9,6 +9,7 @@ This project controls a **LAFVIN 4WD Robot Car Kit** via Bluetooth Low Energy (B
 - Arduino Uno
 - JDY-16 BLE Module
 - Connection: JDY TX → Pin 0 (RX), JDY RX → Pin 1 (TX)
+- Ardiuno MEGA
 
 ---
 
@@ -191,5 +192,5 @@ int turnSpeed  = 150;  // Adjust for tighter/wider turns
 
 ## Version Info
 - Python: 3.7 or higher
-- Arduino Board: Uno
+- Arduino Board: Uno, Mega(for forceconfig)
 - JDY-16 Firmware: Standard (configured to Slave/Role 0)
